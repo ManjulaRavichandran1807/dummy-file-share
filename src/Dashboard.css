@@ -1,0 +1,87 @@
+
+.dashboard {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(202, 233, 245);
+    background-image: url('./images/istockphoto.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .header {
+    padding: 5px;
+    text-align: center;
+    background: rgb(202, 233, 245);
+    color: rgb(31, 31, 31);
+  }
+   
+  .header h1 {
+    font-size: 20px;
+  }
+
+  /*Receive*/
+  .dashboard__container1 {
+    display: flex;
+    flex-direction: column;
+    -ms-flex: 50%; /* IE10 */
+    flex: 50%;
+    text-align: center;
+    /*background-color: white;
+    padding: 20px;*/
+    text-align: center;
+    color: black;
+    font-size: medium;
+    font-weight: bolder;
+    background-color: #9aa3d849;
+    padding: 20px;
+  }
+   
+  /*Send*/
+  .dashboard__container {
+    display: flex;
+    flex-direction: column;
+    -ms-flex: 50%; /* IE10 */
+    flex: 50%;
+    text-align: center;
+    /*background-color: white;
+    padding: 20px;*/
+    text-align: center;
+    color: black;
+    font-size: medium;
+    font-weight: 500;
+    background-color: #3c488d49;
+    padding: 20px;
+  }
+
+  .dashboard__btn {
+    padding: 10px;
+    font-size: 12px;
+    margin-bottom: 10px;
+    top: 0;
+    right: 0;
+    border: none;
+    color: white;
+    background-color: black;
+  }
+
+  .dashboard__btn1 {
+    padding: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+    border: none;
+    color: white;
+    background-color: black;
+  }
+  
+  .dashboard div {
+    margin-top: 7px;
+  }
+
+  .dashboard_container p{
+    font-size: 10px;
+  }
+  
